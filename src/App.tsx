@@ -1,4 +1,4 @@
-import * as React from 'react';
+
 import { PrimeReactProvider } from 'primereact/api';
 import ArtworkTable from './components/ArtworkTable';
 
