@@ -1,0 +1,45 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* DataTable customizations */
+.p-datatable .p-datatable-header {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  padding: 1rem;
+  text-align: left;
+}
+
+.p-datatable .p-datatable-thead > tr > th {
+  background: #f8f9fa;
+}
+
+.p-datatable .p-datatable-tbody > tr:nth-child(even) {
+  background: #f8f9fa;
+}
+
+/* Button customizations */
+.p-button {
+  margin-right: 0.5rem;
+}
+
+/* Toast customizations */
+.p-toast {
+  opacity: 0.95;
+}
